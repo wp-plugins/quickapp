@@ -1,4 +1,4 @@
-=== Quickapp – Free Mobile App for your WP blog ===
+=== Quickapp – Free Mobile App for your WP blog (Android, iOS, windows and HTML5) ===
 Contributors: fsdsolutions
 Donate link: http://www.fsdsolutions.com/quickapp/
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
@@ -56,15 +56,15 @@ Quickapp is a wordpress plugin that converts your blog/website into HTML5 mobile
   <li>Click the "Download" button.</li>
   <li>Go to your WordPress admin panel, open the Plugins menu on the left main menu and click "Add New".</li>
   <li>Click upload on the top page menu.</li>
-  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android, iOS, HTML5)" plugin and click "Install Now".</li>
+  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android, iOS, windows and HTML5)" plugin and click "Install Now".</li>
   <li>Click "Activate Plugin".</li>
   <li>Click the Quickapp button on the left main menu to start creating your own mobile App.</li>
  </ol>
 </p>
 == Screenshots ==
 
-1. Customize your mobile App Screenshot.
-2. Customized your mobile App appearance.
+1. Define app name.
+2. Select splashscreen for mobile app.
 
 == Changelog ==
 = 1.0b =
