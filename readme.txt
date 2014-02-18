@@ -1,4 +1,4 @@
-=== Quickapp – Free Mobile App for your WP blog (Android, iOS, windows and HTML5) ===
+=== Quickapp – Free Mobile App for your WP blog (Android, iOS, windows & HTML5) ===
 Contributors: fsdsolutions
 Donate link: http://www.fsdsolutions.com/quickapp/
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
@@ -8,13 +8,13 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Quickapp is a wordpress plugin that converts your blog/website into HTML5 mobile app for all smartphones platforms (Android, iOS & Windows)
+Looking for ways to extend your reach and engage with your audience on mobile devices, such as iPhone, iPad, Android and Windows Phone.
 
 == Description ==
 
-<p><strong>Quickapp</strong> – Free Mobile App for your WP blog (Android, iOS, HTML5)</p>
+<p>QuickApp is a plugin created for you. It delivers the easiest, fastest and most advanced way to turn your WordPress site into customizable native mobile apps for iPhone, iPad, Android and Windows Phone devices. You can also publish your mobile App as a native mobile App to the Apple App Store and Google Play Android market.</p>
 
-<p>Quickapp is a wordpress plugin that converts your blog or website into an HTML5 mobile app for all smartphones platforms including android, iphone and Windows. We offer a free version for small to medium website as well as custom apps for an affordable price. Our plugin can be used to generate files that you can self-publish as a native app to Apple App Store and Google Play Android market.</p>
+<p>It is <strong>FREE</strong> to get started.</p>
 
 <h4>Plug and Play:</h4>
 
@@ -33,7 +33,7 @@ Quickapp is a wordpress plugin that converts your blog/website into HTML5 mobile
   <li>Enable users to experience an app like experience through mobile browser on their smartphones</li>
   <li>Publish your mobile app as a native iOS App to the Apple AppStore</li>
   <li>Publish your mobile app as a native Android App to Google Play Android market.</li>
-  <li>Your visitors can post comments to your blog posts</li>
+  <li>Your visitors can view comments to your blog posts</li>
   <li>Use adsense or admob to monetize your content through mobile users.</li>
   <li>Integrate your mobile app stats with your google analystics account</li>
   <li>And much much more</li>
