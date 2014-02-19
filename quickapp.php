@@ -110,7 +110,7 @@ function fsd_admin_init() {
 }
 
 function register_fsd_menu_page(){	
-    add_menu_page( 'Quickapp', 'uickapp', 'administrator', 'fsdapp-plans', 'fsd_plans', plugins_url( 'admin/icon.png',  __FILE__  ) );
+    add_menu_page( 'Quickapp', 'Quickapp', 'administrator', 'fsdapp-plans', 'fsd_plans', plugins_url( 'admin/icon.png',  __FILE__  ) );
 	/* remove duplicate menu hack */
 	add_submenu_page('fsdapp-plans', '', '', 'administrator', 'fsdapp-plans', 'fsd_plans');	
    /* Register our plugin page */
