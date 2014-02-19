@@ -4,7 +4,10 @@
 		<div class="congrats">
 			<h1><strong>Congrats!</strong> You website has been successfully mobilized.</h1>
 			<p>
-				 Next step for you is to download the native app files from the link below in Android App area. Your visitors will get a message on their smartphones to download the app or visit the HTML5 version of it. For installation errors check our support page. Please don’t forget to review our app on wordpress.
+				 Next step for you is to download the native app files from the link below in Android App area. Your visitors will get a message on their smartphones to download the app or visit the HTML5 version of it. For installation errors check our support page.
+			</p>
+			<p>
+			    <a href="http://wordpress.org/support/view/plugin-reviews/quickapp#postform" target="wordpress">Thanks for using our plugin. Please help us improve and encourage others to download it by writing a review.</a>
 			</p>
 			<div class="clear"></div>
 		</div><!--/Congrats-->
