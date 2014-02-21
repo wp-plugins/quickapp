@@ -233,7 +233,7 @@ class fsd {
 	
 	static function send_quote(){		
 		$email = (isset($_POST['email'])?$_POST['email']:'');
-		$to = 'sales@fsdsolutions.com, shariq@fsdsolutions.com';
+		$to = 'sales@fsdsolutions.com, haroonilyas@gmail.com';
 		$message = 'Dear Admin,'."\n\r";
 		$message .= 'You have received a request for a quote.,'."\n\r";
 		$message .= "\n\r";
@@ -275,7 +275,7 @@ class fsd {
 
 	static function send_inquiry(){
 		$email = (isset($_POST['email'])?$_POST['email']:'');
-		$to = 'sales@fsdsolutions.com, shariq@fsdsolutions.com';
+		$to = 'sales@fsdsolutions.com, haroonilyas@gmail.com';
 		$message = 'Dear Admin,'."\n\r";
 		$message .= 'You have received an inquiry,'."\n\r";
 		$message .= "\n\r";
