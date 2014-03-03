@@ -101,7 +101,7 @@
           <br>
         </div>
         <div class="col-1"> <span>Email Address (<strong>*</strong>)</span><br>
-          <input type="text" class="validate[required,custom[email]]" name="email" id="email" >
+          <input type="text" class="validate[required]" name="email" id="email" >
           <br>
           <span>Organization</span><br>
           <input type="text" name="organization" id="organization" >
@@ -209,7 +209,7 @@
           <br>
         </div>
         <div class="col-1"> <span>Email Address (<strong>*</strong>)</span><br>
-          <input type="text" class="validate[required,custom[email]]" name="email" id="email" >
+          <input type="text" class="validate[required]" name="email" id="email" >
           <br>
           <span>Organisation</span><br>
           <input type="text" name="organization" id="organization" >

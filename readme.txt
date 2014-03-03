@@ -4,7 +4,7 @@ Donate link: http://www.fsdsolutions.com/quickapp/
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,8 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 == Changelog ==
 = 1.0b =
 * Just released as beta version.
+= 1.1b =
+* Some Bug fixes.
 == Frequently Asked Questions ==
 = What is Quickapp? =
 Quickapp is a wordpress plugin that converts your blog or website into an HTML5 mobile app for all smartphones platforms including android, iphone and Windows.
@@ -90,4 +92,4 @@ Manual installation of apps using the .apk files, you need to allow your phone t
  <li>Your new app is now installed.</li>
 </ul>
 == Upgrade Notice ==
-* Just released as beta version.
+* Some Bug fixes.
