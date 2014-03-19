@@ -30,7 +30,7 @@
 				</p>
 
 				<!--Download App-->
-				<a href="<?php echo FSD_API_URL; ?>api/download/<?php echo get_option('fsd_appid'); ?>.apk" class="btn-andriod">Download Andriod App</a>
+				<a href="<?php echo FSD_API_URL; ?>api/download/<?php echo get_option('fsd_appid'); ?>.apk" class="btn-andriod">Download Android App</a>
 				<br>
 				<p>No thanks. Continue to: </p>
 				<a href="<?php echo site_url(); ?>?post/latest" class="btn-continue">Mobile Site</a>

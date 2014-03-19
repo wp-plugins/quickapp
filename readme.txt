@@ -4,7 +4,7 @@ Donate link: http://www.fsdsolutions.com/quickapp/
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,13 +12,13 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 
 == Description ==
 
-<p>QuickApp is a plugin created for you. It delivers the easiest, fastest and most advanced way to turn your WordPress site into customizable native mobile apps for iPhone, iPad, Android and Windows Phone devices. You can also publish your mobile App as a native mobile App to the Apple App Store and Google Play Android market.</p>
+<p>Quickapp is a plugin created for you. It delivers the easiest, fastest and most advanced way to turn your WordPress site into customizable native mobile apps for iPhone, iPad, Android and Windows Phone devices. You can also publish your mobile App as a native mobile App to the Apple App Store and Google Play Android market.</p>
 
 <p>It is <strong>FREE</strong> to get started.</p>
 
 <h4>Plug and Play:</h4>
 
-<p>Our plugin is as simple as few clicks and anyone with basic knowledge of wordpress admin can install and use it. Our free version offers you the ability to select from 10 flash screens as well as choose how to display your content. Our Quickapp plugin generate files that offers HTML5 mobile Web App, iOS App & Andriod App quickly and easily in real time.</p>
+<p>Our plugin is as simple as few clicks and anyone with basic knowledge of wordpress admin can install and use it. Our free version offers you the ability to select from 10 flash screens as well as choose how to display your content. Our Quickapp plugin generate files that offers HTML5 mobile Web App, iOS App & Android App quickly and easily in real time.</p>
 
 <h4>Publish your app to Apple AppStore and Google Play Android Market:</h4>
 <p>
@@ -71,6 +71,11 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 * Just released as beta version.
 = 1.1b =
 * Some Bug fixes.
+= 1.2b =
+* App compilation improvement.
+* App Publishing to google play bug fixed.
+* Some other bug fixes.
+
 == Frequently Asked Questions ==
 = What is Quickapp? =
 Quickapp is a wordpress plugin that converts your blog or website into an HTML5 mobile app for all smartphones platforms including android, iphone and Windows.

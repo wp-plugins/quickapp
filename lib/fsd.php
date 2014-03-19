@@ -313,7 +313,7 @@ class fsd {
 	   $url = FSD_API_URL.'api/'.$operation;	   
 		$response = wp_remote_post( $url, array(
 			'method' => 'POST',
-			'timeout' => 45,
+			'timeout' => 10000000,
 			'redirection' => 5,
 			'httpversion' => '1.0',
 			'blocking' => $blocking,

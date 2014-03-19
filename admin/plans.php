@@ -62,7 +62,7 @@
                 	<td class="txt-center"><img src="<?php echo plugins_url('images/dollar.png', __FILE__); ?>" alt="Ads monetization"></td>
                     <td ><h2>Ads monetization</h2>Monetize your App with AdSense & Admob</td>
                     <td class="txt-center"><img class="tTip" src="<?php echo plugins_url('images/questmark.png', __FILE__); ?>" title="Display Adsense ads on the HTML5 WebApp &amp; Admob Ads on the native Apps.<br>Enjoy all the revenues, Quickapp take no cut of your revenues nor do we share the ad space."></td>
-                    <td class="txt-center"><img src="<?php echo plugins_url('images/cancel.png', __FILE__); ?>" alt="not included"></td>
+                    <td class="txt-center"><img src="<?php echo plugins_url('images/checkmark2.png', __FILE__); ?>" alt="included"></td>
                     <td class="txt-center"><img src="<?php echo plugins_url('images/checkmark2.png', __FILE__); ?>" alt="included"></td>
                     <td class="txt-center"><img src="<?php echo plugins_url('images/checkmark2.png', __FILE__); ?>" alt="included"></td>
                 </tr>
@@ -129,7 +129,8 @@
         <div class="col-1"> <span>App Budget (<strong>*</strong>)</span>
           <select id="appbudget" name="appbudget" class="validate[required]">
             <option value="Not Sure">Not Sure</option>
-            <option value="Under $1,000">Under $1,000</option>
+            <option value="Under $500">Under $500</option>
+            <option value="$500 - $1,000">$500 - $1,000</option>
             <option value="$1,000 - $2,000">$1,000 - $2,000</option>
             <option value="$2,000 - $3,000">$2,000 - $3,000</option>
             <option value="$3,000 - $4,000">$3,000 - $4,000</option>

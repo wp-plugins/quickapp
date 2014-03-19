@@ -118,8 +118,8 @@ jQuery.ajax({
 	},
     error: function(xhr, textStatus, errorThrown){
     	jQuery('#btndownload').fadeTo("fast", .5).removeAttr("href");
-    	jQuery('#AppVersion').html('Server Timeout!');
-    	alert('Server Timeout!\n\rWe are just generating your app please try again after few minutes. Your App will be ready.');
+    	jQuery('#AppVersion').html('Compilation Queued');
+    	alert('We apologize for the inconvenience and happy to see you using Quickapp.\n\r\n\rYou are our valued customer and due to heavy usage by many your App compilation is Queued.\n\r\n\rWe will get back to you with your compiled app in 20 Minutes time.');
     }
 });	
 </script>
