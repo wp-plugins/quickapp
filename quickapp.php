@@ -25,7 +25,7 @@
 if( !defined( 'FSD_BASE_FILE' ) )	define( 'FSD_BASE_FILE', __FILE__ );
 if( !defined( 'FSD_BASE_DIR' ) ) 	define( 'FSD_BASE_DIR', dirname( FSD_BASE_FILE ) );
 if( !defined( 'FSD_PLUGIN_URL' ) ) 	define( 'FSD_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-if( !defined( 'FSD_API_URL' ) ) 	define( 'FSD_API_URL', 'http://shariq/wordpress-api/' );
+if( !defined( 'FSD_API_URL' ) ) 	define( 'FSD_API_URL', 'http://quickapp.fsdcloud.com/' );
 
 include(FSD_BASE_DIR.DIRECTORY_SEPARATOR.'lib'.DIRECTORY_SEPARATOR.'fsd.php');
 /*

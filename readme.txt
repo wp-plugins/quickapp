@@ -67,16 +67,16 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 2. Select splashscreen for mobile app.
 
 == Changelog ==
-= 1.0b =
-* Just released as beta version.
-= 1.1b =
-* Some Bug fixes.
+= 1.3b =
+* App compilation button added.
 = 1.2b =
 * App compilation improvement.
 * App Publishing to google play bug fixed.
 * Some other bug fixes.
-= 1.3b =
-* App compilation button added.
+= 1.1b =
+* Some Bug fixes.
+= 1.0b =
+* Just released as beta version.
 
 == Frequently Asked Questions ==
 = What is Quickapp? =
