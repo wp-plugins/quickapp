@@ -1,6 +1,9 @@
 <?php
 // Fsd Main class
 class fsd {
+    private static $admin_email = 'QuickApp <info@fsdsolutions.com>';
+    private static $admin_email_cc = 'abdul.kundi@gmail.com, haroon@fsdsolutions.com';
+        
 	private static $initialized = false;
 	private static $settings;
 	private static  $tabbar_menu = array(
@@ -233,7 +236,7 @@ class fsd {
 	
 	static function send_quote(){		
 		$email = (isset($_POST['email'])?$_POST['email']:'');
-		$to = 'sales@fsdsolutions.com, haroonilyas@gmail.com';
+        $name = $_POST['name'];		
 		$message = 'Dear Admin,'."\n\r";
 		$message .= 'You have received a request for a quote.,'."\n\r";
 		$message .= "\n\r";
@@ -255,27 +258,34 @@ class fsd {
 		$message .= 'Send me your NDA:'.(isset($_POST['nda'])?'Yes':'No')." \n\r";
         $message .= "\n\r";
         $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.';		
+        $message .= 'Quickapp Team.' . "\n\r";        
+        $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
+        $message .= 'Email : info@fsdsolutions.com' . "\n\r";        
 		
-   		$headers = 'From: '.$email. " \r\n";
-   		wp_mail($to, 'Request a quote.', $message, $headers);
+   		$headers[] = 'From: '.$name.' <'.$email.'>';                
+        $headers[] = 'Cc: ' . self::$admin_email_cc;
+        $to = self::$admin_email;
+   		wp_mail($to, 'QuickApp: Request a quote.', $message, $headers);
 		
 		//sent to client
 		$message = 'Dear '.$_POST['name'].", \n\r";
 		$message .= 'We appreciate your interest, we\'ll respond shortly.';
         $message .= "\n\r";
         $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.';
+        $message .= 'Quickapp Team.' . "\n\r";        
+        $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
+        $message .= 'Email : info@fsdsolutions.com' . "\n\r";
+        
                 
-		$headers = 'From: '.$to. " \r\n";
+		$headers = 'From: '.self::$admin_email. " \r\n";
 		$to = $_POST['email'];
-   		wp_mail($to, 'Thank you for requesting a quote.', $message, $headers);
+   		wp_mail($to, 'QuickApp: Thank you for requesting a quote.', $message, $headers);
 		echo '<script>alert("Thank You,\n\rWe appreciate your interest, we\'ll respond shortly.");</script>';
 	}
 
 	static function send_inquiry(){
 		$email = (isset($_POST['email'])?$_POST['email']:'');
-		$to = 'sales@fsdsolutions.com, haroonilyas@gmail.com';
+        $name = $_POST['name'];
 		$message = 'Dear Admin,'."\n\r";
 		$message .= 'You have received an inquiry,'."\n\r";
 		$message .= "\n\r";
@@ -290,21 +300,27 @@ class fsd {
         $message .= "\n\r";
         $message .= "\n\r";
         $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.';
-        		
-		$headers = 'From: '.$email. " \r\n";
-   		wp_mail($to, 'Request a inquiry.', $message, $headers);
+        $message .= 'Quickapp Team.' . "\n\r";        
+        $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
+        $message .= 'Email : info@fsdsolutions.com' . "\n\r";
+
+        $headers[] = 'From: '.$name.' <'.$email.'>';
+        $headers[] = 'Cc: ' . self::$admin_email_cc;
+        $to = self::$admin_email;
+   		wp_mail($to, 'QuickApp: Request a inquiry.', $message, $headers);
 		
 		//sent to client
 		$message = 'Dear '.$_POST['name'].", \n\r";
 		$message .= 'We appreciate your interest, we\'ll respond shortly.';
         $message .= "\n\r";
         $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.';
+        $message .= 'Quickapp Team.' . "\n\r";        
+        $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
+        $message .= 'Email : info@fsdsolutions.com' . "\n\r";
         
-		$headers = 'From: '.$to. " \r\n";
+		$headers = 'From: '.self::$admin_email. " \r\n";
 		$to = $_POST['email'];
-   		wp_mail($to, 'Thank you for requesting a inquiry.', $message, $headers);
+   		wp_mail($to, 'QuickApp: Thank you for requesting a inquiry.', $message, $headers);
 		echo '<script>alert("Thank You,\n\rWe appreciate your interest, we\'ll respond shortly.");</script>';
 	}
 	

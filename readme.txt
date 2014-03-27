@@ -4,7 +4,7 @@ Donate link: http://www.fsdsolutions.com/quickapp/
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
 Requires at least: 3.0.1
 Tested up to: 3.8.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,14 +67,16 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 2. Select splashscreen for mobile app.
 
 == Changelog ==
-= 1.0b =
-* Just released as beta version.
-= 1.1b =
-* Some Bug fixes.
+= 1.3b =
+* App compilation button added.
 = 1.2b =
 * App compilation improvement.
 * App Publishing to google play bug fixed.
 * Some other bug fixes.
+= 1.1b =
+* Some Bug fixes.
+= 1.0b =
+* Just released as beta version.
 
 == Frequently Asked Questions ==
 = What is Quickapp? =
@@ -97,4 +99,7 @@ Manual installation of apps using the .apk files, you need to allow your phone t
  <li>Your new app is now installed.</li>
 </ul>
 == Upgrade Notice ==
-* Some Bug fixes.
+* App compilation improvement.
+* App Publishing to google play bug fixed.
+* App compilation button added.
+* Some other bug fixes.

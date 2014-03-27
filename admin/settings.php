@@ -282,7 +282,7 @@ You can use the cross and drag & drop to reorder the Tab Bars items." alt="" cla
 						</div><!--/vmenubody-->
 					</div><!--/vmenu-->
 					<button type="submit" value="live" id="btnsubmit"><img src="<?php echo plugins_url('images/save-changes.png', __FILE__); ?>" alt="Save Changes"></button>
-					<button type="button" value="next" onclick="window.location='admin.php?page=fsd_publish'" ><img src="<?php echo plugins_url('images/next.png', __FILE__); ?>" alt="Next"></button>
+					<button type="button" value="next" onclick="window.location='admin.php?page=fsd_publish'" ><img src="<?php echo plugins_url('images/next.png', __FILE__); ?>" alt="Compile & Download"></button>
 					<p>&nbsp;</p>
 					<p style="color:red">Note: Each time settings are changed new .apk file will be generated and users will need to update their app on smartphones.</p>
 				</form>
