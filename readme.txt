@@ -1,6 +1,6 @@
 === Quickapp – Free Mobile App for your WP blog (Android, iOS, windows & HTML5) ===
 Contributors: fsdsolutions
-Donate link: http://www.fsdsolutions.com/quickapp/
+Donate link: http://www.fsdsolutions.com/payment_options.html
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
 Requires at least: 3.0.1
 Tested up to: 3.8.1
