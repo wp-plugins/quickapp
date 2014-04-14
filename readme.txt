@@ -16,7 +16,7 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 
 <p>It is <strong>FREE</strong> to get started.</p>
 
-For more information visit the <a href="http://www.fsdsolutions.com/quickapp/">Quickapp Product Page</a>.
+<p>For more information visit the <a href="http://www.fsdsolutions.com/quickapp/">Quickapp Product Page</a>.</p>
 
 <h4>Plug and Play:</h4>
 
