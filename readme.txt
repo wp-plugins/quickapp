@@ -16,6 +16,8 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 
 <p>It is <strong>FREE</strong> to get started.</p>
 
+For more information visit the <a href="http://www.fsdsolutions.com/quickapp/">Quickapp Product Page</a>.
+
 <h4>Plug and Play:</h4>
 
 <p>Our plugin is as simple as few clicks and anyone with basic knowledge of wordpress admin can install and use it. Our free version offers you the ability to select from 10 flash screens as well as choose how to display your content. Our Quickapp plugin generate files that offers HTML5 mobile Web App, iOS App & Android App quickly and easily in real time.</p>
