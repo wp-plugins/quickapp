@@ -8,11 +8,11 @@ Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Looking for ways to extend your reach and engage with your audience on mobile devices, such as iPhone, iPad, Android and Windows Phone.
+Looking for ways to extend your reach and engage with your audience on mobile devices, such as iPhone, iPad and Android Phone.
 
 == Description ==
 
-<p>Quickapp is a plugin created for you. It delivers the easiest, fastest and most advanced way to turn your WordPress site into customizable native mobile apps for iPhone, iPad, Android and Windows Phone devices. You can also publish your mobile App as a native mobile App to the Apple App Store and Google Play Android market.</p>
+<p>Quickapp is a plugin created for you. It delivers the easiest, fastest and most advanced way to turn your WordPress blog into customizable native mobile apps for iPhone, iPad and Android Phone devices. You can also publish your mobile App as a native mobile App to the Apple App Store and Google Play Android market.</p>
 
 <p>It is <strong>FREE</strong> to get started.</p>
 
@@ -58,7 +58,7 @@ Looking for ways to extend your reach and engage with your audience on mobile de
   <li>Click the "Download" button.</li>
   <li>Go to your WordPress admin panel, open the Plugins menu on the left main menu and click "Add New".</li>
   <li>Click upload on the top page menu.</li>
-  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android, iOS, windows and HTML5)" plugin and click "Install Now".</li>
+  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android, iOS and HTML5)" plugin and click "Install Now".</li>
   <li>Click "Activate Plugin".</li>
   <li>Click the Quickapp button on the left main menu to start creating your own mobile App.</li>
  </ol>
@@ -82,10 +82,10 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 
 == Frequently Asked Questions ==
 = What is Quickapp? =
-Quickapp is a wordpress plugin that converts your blog or website into an HTML5 mobile app for all smartphones platforms including android, iphone and Windows.
+Quickapp is a wordpress plugin that converts your blog into an HTML5 mobile app for all smartphones platforms including android and iphone.
 
 = Who can create a mobile App using the Quickapp Plugin? =
-Any WordPress powered website that has the capability to install a WordPress plugin can use Quickapp and create his own mobile App
+Any WordPress powered blog that has the capability to install a WordPress plugin can use Quickapp and create his own mobile App
 
 = What version of WordPress do I need? = 
 The Quickapp plugin is compatible with WordPress versions 3.0.1 and up.
