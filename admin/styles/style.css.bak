@@ -441,11 +441,11 @@ img.tTip{  }
 	}
 .find-plan th{
 	color:#f46e10;
-	font-size:20px;
+	font-size:23px;
 	border-bottom:2px solid #aeadad;	
 }
 .find-plan .fist-heading{
-	width:576px;
+	width:460px;
 	text-align:left;	
 }
 .find-plan .top-area{
@@ -555,7 +555,4 @@ img.tTip{  }
 	text-shadow:0 1px 0 #060707;
 	display:block;
 	}
-#dialog-pro ol li{margin-bottom: 7px;}
-#dialog-enterprise ol li{margin-bottom: 7px;}
-	
 /*BUTTON CSS END*/	

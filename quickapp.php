@@ -43,7 +43,6 @@ add_action( 'admin_init', 'fsd_admin_init' );
 add_action( 'admin_menu', 'register_fsd_menu_page' );
 add_action( 'wp_ajax_update_settings', array( 'fsd', 'ajax_update_settings') );
 add_action( 'wp_ajax_compile_app', array( 'fsd', 'compile_app') );
-
 /*
 |--------------------------------------------------------------------------
 | PLUGIN FUNCTIONS
@@ -91,7 +90,9 @@ function my_enqueue($hook) {
 		//Validation Engine
 		wp_enqueue_script( 'fsd-validationEngine-en', plugins_url( 'admin/scripts/languages/jquery.validationEngine-en.js',  __FILE__ ), array('jquery'));
 		wp_enqueue_script( 'fsd-validationEngine', plugins_url( 'admin/scripts/jquery.validationEngine.js',  __FILE__ ), array('jquery'));
-		wp_enqueue_style( 'fsd-validationEngine-css', plugins_url( 'admin/styles/validationEngine.jquery.css',  __FILE__ ) );		
+		wp_enqueue_style( 'fsd-validationEngine-css', plugins_url( 'admin/styles/validationEngine.jquery.css',  __FILE__ ) );
+        wp_enqueue_style( 'fsd-jquery-ui-css', plugins_url( 'admin/styles/ui-lightness/jquery-ui-1.10.4.custom.min.css',  __FILE__ ) );
+        wp_enqueue_script( 'jquery-ui-dialog', FALSE, array('jquery'));
 	}    
 	wp_enqueue_script( 'jquery-ui-core', FALSE, array('jquery'));
     wp_enqueue_script( 'jquery-ui-sortable', FALSE, array('jquery')); 
@@ -164,7 +165,12 @@ function fsd_settings() {
 
 function fsd_template_chooser($template) {    
 	require_once(dirname (__FILE__) . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'Mobile_Detect.php');	 
-	$detect = new Mobile_Detect;		
+	$detect = new Mobile_Detect;
+    if (strpos($_SERVER['QUERY_STRING'], 'register-device') !== FALSE && !empty($_POST['device_id'])){
+            GCM::register_device($_POST['device_id']);
+            return;
+     }    
+	
 	// Any mobile device (phones or tablets).
 	if( $detect->isMobile()) {
 	    				

@@ -13,7 +13,7 @@ class fsd {
 		'Categories' => array('title' => 'Categories', 'link' => 'categories/list', 'icon' => 'grid', 'icon2'=>'images/categories-icon.png' ),
 		'Archives' => array('title' => 'Archives', 'link' => 'archives/list', 'icon' => 'wp-archive', 'icon2'=>'images/archives-icon.png' )
 	);
-	
+    
     private static function initialize()
     {
     	if (self::$initialized)
@@ -258,69 +258,28 @@ class fsd {
 		$message .= 'Send me your NDA:'.(isset($_POST['nda'])?'Yes':'No')." \n\r";
         $message .= "\n\r";
         $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.' . "\n\r";        
+        $message .= 'Quickapp Team.' . "\n\r";
         $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
-        $message .= 'Email : info@fsdsolutions.com' . "\n\r";        
+        $message .= 'Email : info@fsdsolutions.com' . "\n\r";
 		
-   		$headers[] = 'From: '.$name.' <'.$email.'>';                
+   		$headers[] = 'From: '.$name.' <'.$email.'>';
         $headers[] = 'Cc: ' . self::$admin_email_cc;
         $to = self::$admin_email;
-   		wp_mail($to, 'QuickApp: Request a quote.', $message, $headers);
+   		wp_mail($to, 'QuickApp: Contact Us Form.', $message, $headers);
 		
 		//sent to client
 		$message = 'Dear '.$_POST['name'].", \n\r";
 		$message .= 'We appreciate your interest, we\'ll respond shortly.';
         $message .= "\n\r";
         $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.' . "\n\r";        
-        $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
-        $message .= 'Email : info@fsdsolutions.com' . "\n\r";
-        
-                
-		$headers = 'From: '.self::$admin_email. " \r\n";
-		$to = $_POST['email'];
-   		wp_mail($to, 'QuickApp: Thank you for requesting a quote.', $message, $headers);
-		echo '<script>alert("Thank You,\n\rWe appreciate your interest, we\'ll respond shortly.");</script>';
-	}
-
-	static function send_inquiry(){
-		$email = (isset($_POST['email'])?$_POST['email']:'');
-        $name = $_POST['name'];
-		$message = 'Dear Admin,'."\n\r";
-		$message .= 'You have received an inquiry,'."\n\r";
-		$message .= "\n\r";
-		$message .= 'Name: '.(isset($_POST['name'])?$_POST['name']:'')." \n\r";
-		$message .= 'Email: '.(isset($_POST['email'])?$_POST['email']:'')." \n\r";
-		$message .= 'Phone: '.(isset($_POST['phone'])?$_POST['phone']:'')." \n\r";
-		$message .= 'Orgnization: '.(isset($_POST['organization'])?$_POST['organization']:'')." \n\r";
-		
-		$message .= 'Short Summary of Concept: '.(isset($_POST['summary'])?$_POST['summary']:'')." \n\r";
-		$message .= 'How did you hear about?'." \n\r";		
-		$message .= (isset($_POST['howknow'])?$_POST['howknow']:'')." \n\r";
-        $message .= "\n\r";
-        $message .= "\n\r";
-        $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.' . "\n\r";        
+        $message .= 'Quickapp Team.' . "\n\r";
         $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
         $message .= 'Email : info@fsdsolutions.com' . "\n\r";
 
-        $headers[] = 'From: '.$name.' <'.$email.'>';
-        $headers[] = 'Cc: ' . self::$admin_email_cc;
-        $to = self::$admin_email;
-   		wp_mail($to, 'QuickApp: Request a inquiry.', $message, $headers);
-		
-		//sent to client
-		$message = 'Dear '.$_POST['name'].", \n\r";
-		$message .= 'We appreciate your interest, we\'ll respond shortly.';
-        $message .= "\n\r";
-        $message .= 'Regards,'."\n\r";
-        $message .= 'Quickapp Team.' . "\n\r";        
-        $message .= 'Tel: +1-214-295-8184 -- +1-214-257-7895' . "\n\r";
-        $message .= 'Email : info@fsdsolutions.com' . "\n\r";
-        
+
 		$headers = 'From: '.self::$admin_email. " \r\n";
 		$to = $_POST['email'];
-   		wp_mail($to, 'QuickApp: Thank you for requesting a inquiry.', $message, $headers);
+   		wp_mail($to, 'QuickApp: Thank you for contacting us.', $message, $headers);
 		echo '<script>alert("Thank You,\n\rWe appreciate your interest, we\'ll respond shortly.");</script>';
 	}
 	
