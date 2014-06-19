@@ -8,22 +8,14 @@ Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Looking for ways to extend your reach and engage with your audience on mobile devices, such as iPhone, iPad and Android Phone.
+Are you a wordpress blogger wanting to reach out to your audience on mobile devices, such as iPhone, iPad and Android Phone?
 
 == Description ==
-
-<p>Are you a wordpress blogger wanting to reach out to your audience on mobile devices, such as iPhone, iPad and Android Phone?</p>
-
 <p>QuickApp is a wordpress plugin created for bloggers like you. It offers a convenient way to turn your blog into mobile apps for iPhone, iPad and Android Phone devices. You can also self-publish your App as a native mobile App to the Apple App Store and Google Play Android market. Or we can help you in submitting your App for $499. For higher-end feature rich professional CMS web sites using Wordpress platform, we offer customized Mobile App at an affordable price.</p>
-
 <p><strong>Off course</strong> it is <strong>FREE</strong> to get started with our free version of the plugin.</p>
-
 <p>For more information visit the <a href="http://www.fsdsolutions.com/quickapp/">Quickapp Product Page</a>.</p>
-
 <h4>Plug and Play:</h4>
-
 <p>Our plugin is as simple as few clicks and anyone with basic knowledge of wordpress admin can install and use it. Our free version offers you the ability to select from 10 flash screens as well as choose how to display your content. Our Quickapp plugin generate files that offers HTML5 mobile Web App, iOS App & Android App quickly and easily in real time.</p>
-
 <h4>Publish your app to Apple AppStore and Google Play Android Market:</h4>
 <p>
  <ol>
