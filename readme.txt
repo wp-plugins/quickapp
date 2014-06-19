@@ -12,9 +12,11 @@ Looking for ways to extend your reach and engage with your audience on mobile de
 
 == Description ==
 
-<p>Quickapp is a plugin created for you. It delivers the easiest, fastest and most advanced way to turn your WordPress blog into customizable native mobile apps for iPhone, iPad and Android Phone devices. You can also publish your mobile App as a native mobile App to the Apple App Store and Google Play Android market.</p>
+<p>Are you a wordpress blogger wanting to reach out to your audience on mobile devices, such as iPhone, iPad and Android Phone?</p>
 
-<p>It is <strong>FREE</strong> to get started.</p>
+<p>QuickApp is a wordpress plugin created for bloggers like you. It offers a convenient way to turn your blog into mobile apps for iPhone, iPad and Android Phone devices. You can also self-publish your App as a native mobile App to the Apple App Store and Google Play Android market. Or we can help you in submitting your App for $499. For higher-end feature rich professional CMS web sites using Wordpress platform, we offer customized Mobile App at an affordable price.</p>
+
+<p><strong>Off course</strong> it is <strong>FREE</strong> to get started with our free version of the plugin.</p>
 
 <p>For more information visit the <a href="http://www.fsdsolutions.com/quickapp/">Quickapp Product Page</a>.</p>
 
