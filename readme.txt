@@ -1,4 +1,4 @@
-=== Quickapp – Free Mobile App for your WP blog (Android, iOS & HTML5) ===
+=== Quickapp – Mobile App for your WP Blog (Android, iOS & HTML5) ===
 Contributors: fsdsolutions
 Donate link: http://www.fsdsolutions.com/payment_options.html
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
@@ -12,7 +12,7 @@ Are you a wordpress blogger wanting to reach out to your audience on mobile devi
 
 == Description ==
 <p>QuickApp is a wordpress plugin created for bloggers like you. It offers a convenient way to turn your blog into mobile apps for iPhone, iPad and Android Phone devices. You can also self-publish your App as a native mobile App to the Apple App Store and Google Play Android market. Or we can help you in submitting your App for $499. For higher-end feature rich professional CMS web sites using Wordpress platform, we offer customized Mobile App at an affordable price.</p>
-<p><strong>Off course</strong> it is <strong>FREE</strong> to get started with our free version of the plugin.</p>
+<p><strong>Of course</strong> it is <strong>FREE</strong> to get started with our free version of the plugin.</p>
 <p>For more information visit the <a href="http://www.fsdsolutions.com/quickapp/">Quickapp Product Page</a>.</p>
 <h4>Plug and Play:</h4>
 <p>Our plugin is as simple as few clicks and anyone with basic knowledge of wordpress admin can install and use it. Our free version offers you the ability to select from 10 flash screens as well as choose how to display your content. Our Quickapp plugin generate files that offers HTML5 mobile Web App, iOS App & Android App quickly and easily in real time.</p>
@@ -31,7 +31,7 @@ Are you a wordpress blogger wanting to reach out to your audience on mobile devi
   <li>Publish your mobile app as a native Android App to Google Play Android market.</li>
   <li>Your visitors can view comments to your blog posts</li>
   <li>Use adsense or admob to monetize your content through mobile users.</li>
-  <li>Integrate your mobile app stats with your google analystics account</li>
+  <li>Integrate your mobile app stats with your Google analytics account</li>
   <li>And much much more</li>
  </ul>
 </p>
