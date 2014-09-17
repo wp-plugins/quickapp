@@ -263,8 +263,9 @@ function fsd_template_chooser($template) {
 function fsd_get_template( $template ) {
 
     // Get the template slug
-    $template_slug = rtrim($template, '.php');
-    $template      = $template_slug . '.php';	
+	if (strpos($template, '.php') !== FALSE)
+		$template = rtrim($template, '.php');
+    $template      = $template . '.php';	
     $file = FSD_BASE_DIR . DIRECTORY_SEPARATOR .'includes'.DIRECTORY_SEPARATOR.'templates' .DIRECTORY_SEPARATOR. $template;	
     return apply_filters( 'fsd_repl_template_'.$template, $file);
 }
