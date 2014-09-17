@@ -21,7 +21,7 @@
 <?php   else: ?>
             <a style="display: none;" ></a>    
 <?php   endif; ?>                        
-            <h3>Post</h3>
+            <h3>Search Results</h3>
 <?php   if(isset($next[1])):   ?>
             <a href="<?php echo $next[1]; ?>" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="b" data-inline="true" data-transition="slide">Next</a>
 <?php   endif;    ?>
