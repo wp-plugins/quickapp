@@ -116,7 +116,7 @@ class fsd {
 			'app_icon' => $data['app_icon_hidden'],
 			'splash_screen' => array(
 				'tag_line' => isset($data['tagline'])?$data['tagline']:NULL,
-				'splash_file' => $data['splashscreen_hidden']
+				'splash_file' => isset($data['splashscreen_hidden'])?$data['splashscreen_hidden']:'SS-01.png',
 			),
 			'customize_theme' => array(
 				'author' => (isset($data['author'])?1:0),

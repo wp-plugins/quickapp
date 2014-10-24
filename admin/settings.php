@@ -50,7 +50,7 @@ $index_page = $index_page['link'];
 			<div class="col1">				
     			<form name="form1" id="form1" class="form settinsMenu" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>"  enctype="multipart/form-data">
     				<input type="hidden" name="app_icon_hidden" value="<?php echo(isset($obj_fsd_settings->app_icon)?$obj_fsd_settings->app_icon:plugins_url('images/image.png', __FILE__)); ?>" />
-    				<input type="hidden" id="splashscreen_hidden" name="splashscreen_hidden" value="<?php echo(isset($obj_fsd_settings->splash_screen->splash_file)?$obj_fsd_settings->splash_screen->splash_file:''); ?>" />
+    				<input type="hidden" id="splashscreen_hidden" name="splashscreen_hidden" value="<?php echo(isset($obj_fsd_settings->splash_screen->splash_file) && !empty($obj_fsd_settings->splash_screen->splash_file)?$obj_fsd_settings->splash_screen->splash_file:'SS-01.png'); ?>" />
 					<input type="hidden" id="menu_bar" name="menu_bar" value="<?php echo(''); ?>" />    				  
 					<div class="vmenu active" id="0">
 						<h2>Enter your app name</h2>
