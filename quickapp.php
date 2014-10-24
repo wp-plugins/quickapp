@@ -198,6 +198,8 @@ function fsd_template_chooser($template) {
 		}elseif (strpos($_SERVER['QUERY_STRING'], 'share') !== FALSE){			
 			return fsd_get_template('share');
 		}else{
+			if($template == 'home')
+				$template = 'index';		
 			$arr = explode('/', $template);
 			$arr = explode('.', end($arr));
 			$template = $arr[0];			
