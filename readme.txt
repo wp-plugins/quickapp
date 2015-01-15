@@ -1,14 +1,14 @@
-=== Quickapp – Mobile App for your WP Blog (Android, iOS & HTML5) ===
+=== Quickapp – Mobile App for your WP Blog (Android & HTML5) ===
 Contributors: fsdsolutions
 Donate link: http://www.fsdsolutions.com/payment_options.html
-Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, iphone, ios app, native app, wp blog app, android app
+Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, native app, wp blog app, android app
 Requires at least: 3.0.1
 Tested up to: 4.0
 Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Are you a wordpress blogger wanting to reach out to your audience on mobile devices, such as iPhone, iPad and Android Phone?
+Are you a wordpress blogger wanting to reach out to your audience on mobile devices?
 
 == Description ==
 <p>QuickApp is a WordPress plugin created for bloggers like you. It offers a convenient way to turn your Wordpress blog into Mobile apps. You can also self-publish your App as a native Mobile App to the Google Play Store. Or we can help you with submitting your Android App for a very nominal fee. </p>
@@ -39,7 +39,7 @@ Are you a wordpress blogger wanting to reach out to your audience on mobile devi
  <ol>
   <li>Go to the "Plugins" / "Add new" on the left main menu.</li>
   <li>Type Quickapp within the search box and click "Search Plugins".</li>
-  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android, iOS, HTML5)" Plugin and click "Install Now".</li>
+  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android & HTML5)" Plugin and click "Install Now".</li>
   <li>Click "Activate Plugin".</li>
   <li>Hover on Quickapp icon on the left main menu and click on setting link to start creating your own mobile App.</li>
  </ol>
@@ -50,7 +50,7 @@ Are you a wordpress blogger wanting to reach out to your audience on mobile devi
   <li>Click the "Download" button.</li>
   <li>Go to your WordPress admin panel, open the Plugins menu on the left main menu and click "Add New".</li>
   <li>Click upload on the top page menu.</li>
-  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android, iOS and HTML5)" plugin and click "Install Now".</li>
+  <li>Choose the "Quickapp – Free Mobile App for your WP blog (Android and HTML5)" plugin and click "Install Now".</li>
   <li>Click "Activate Plugin".</li>
   <li>Click the Quickapp button on the left main menu to start creating your own mobile App.</li>
  </ol>
@@ -79,7 +79,7 @@ Are you a wordpress blogger wanting to reach out to your audience on mobile devi
 
 == Frequently Asked Questions ==
 = What is Quickapp? =
-Quickapp is a wordpress plugin that converts your blog into an HTML5 mobile app for all smartphones platforms including android and iphone.
+Quickapp is a wordpress plugin that converts your blog into an HTML5 mobile app for all smartphones platforms including android.
 
 = Who can create a mobile App using the Quickapp Plugin? =
 Any WordPress powered blog that has the capability to install a WordPress plugin can use Quickapp and create his own mobile App
