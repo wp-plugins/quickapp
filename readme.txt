@@ -8,7 +8,7 @@ Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Are you a WordPress blogger wanting to reach out to your audience on Android Mobile Device? QuickApp can help in doing this in few small steps and your app can be published in Google Market place for your users
+Are you a WordPress blogger wanting to reach out to your audience on Android Mobile Device? QuickApp can help in doing this in few small.
 
 == Description ==
 <p>QuickApp is a WordPress plugin created for bloggers like you. It offers a convenient way to turn your Wordpress blog into Mobile apps. You can also self-publish your App as a native Mobile App to the Google Play Store.</p>
