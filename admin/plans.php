@@ -73,8 +73,8 @@
                 <tr>
                 	<td colspan="3"><img src="<?php echo plugins_url('images/guarantee.png', __FILE__); ?>" class="badge" alt="30-Day Money Back!"></td>
                     <td class="bottom-area "><span class="free">Free</span><a href="#" style="text-decoration:none;"><span class="button-2"><span class="button-arrow"></span>Chosen</span></a></td>
-                                        
-                    <td class="bottom-area"><p>$499</p>
+                    <td class="bottom-area "><span class="free">&nbsp;</span><a href="#TB_inline?a=1&width=800&height=700&inlineId=Request-Quote" style="text-decoration:none;" class="thickbox"><span class="button-2"><span class="button-arrow"></span>Contact Us</span></a></td>
+                    <?php /*<td class="bottom-area"><p>$499</p>
                       <span>one-time payment</span><br>
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="paypal_enterprise" id="paypal_enterprise">                    
                             <input type="image" src="<?php echo plugins_url('images/btn_buynow_LG.gif', __FILE__); ?>" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
@@ -89,20 +89,19 @@
                             <input name="rm" type="hidden" value="1" /> 
                             <input name="currency_code" type="hidden" value="USD" />
                         </form>
-                    </td>                                        
+                    </td>*/?>                                        
                 </tr>
                 </tfoot>
        </table>
 
     </div><!--/main-->
-    
+<?php /*<div style="text-align: right;padding-right: 78px; margin-top: -30px;">
+		<a class="thickbox" href="#TB_inline?a=1&width=800&height=700&inlineId=Request-Quote">
+			<img src="<?php echo plugins_url('images/contact-us.png', __FILE__); ?>">
+		</a>
+	</div>*/ ?>    
 </section><!--/wrap-->
 
-<div style="text-align: right;padding-right: 78px; margin-top: -30px;">
-    <a class="thickbox" href="#TB_inline?a=1&width=800&height=700&inlineId=Request-Quote">
-        <img src="<?php echo plugins_url('images/contact-us.png', __FILE__); ?>">
-    </a>
-</div>
 <?php add_thickbox(); ?>
 <div id="Request-Quote" style='display:none;'>
   <div id='ocd_content' class='colorbox '>
@@ -203,7 +202,7 @@
   </div> <!--#ocd_content--> 
   
 </div><!--display:none-->
-
+<?php /*
 <div id="dialog-enterprise" title="Terms & Condition for Professional (iOS & Android) Version of QuickApp">    
     <ol type="a">
         <li>I have understood that my <strong>WordPress blog</strong> will be converted to a Mobile Application using QuickApp</li>    
@@ -215,6 +214,7 @@
     </ol>
 </div>
 <!--Inquiry Form END-->
+*/?>
 <script>
 jQuery(document).ready(function(){
     jQuery("#form1, #form2").validationEngine();
