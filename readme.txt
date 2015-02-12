@@ -1,4 +1,4 @@
-=== Quickapp – Mobile App for your WP Blog (Android & HTML5) ===
+﻿=== Quickapp – Mobile App for your WP Blog (Android & HTML5) ===
 Contributors: fsdsolutions
 Donate link: http://www.fsdsolutions.com/payment_options.html
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, native app, wp blog app, android app
@@ -15,7 +15,7 @@ Are you a wordpress blogger wanting to reach out to your audience on mobile devi
 <p>For professional CMS driven web-sites using WordPress platform, we also offer a customized Mobile App solution at an affordable price.</p>
 <p><strong>Of course</strong> it is <strong>FREE</strong> to get started with our free version of the plugin.</p>
 
-<p>For more information, please visit our website: <a href="http://www.fsdsolutions.com/quickapp/">QuickApp</a> .</p>
+<p>For more information, please visit our website: <a href="http://www.fsdsolutions.com/quickapp/">QuickApp</a>.</p>
 <h4>Plug and Play:</h4>
 <p>Our plugin is as simple as few clicks and anyone with a basic knowledge of WordPress admin can install and use it. Our free version offers you the ability to select from 10 flash screens as well as to choose how to display your content. The QuickApp plugin generates files that offer HTML5 Mobile Web App & Android App in real time.</p>
 
