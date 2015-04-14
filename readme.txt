@@ -3,7 +3,7 @@ Contributors: fsdsolutions
 Donate link: http://www.fsdsolutions.com/payment_options.html
 Tags: android, mobile, HTML5 app, mobile app, mobile theme, smartphones, web app, wptouch, webapp, app generator, wp to mobile, wp mobile app, native app, wp blog app, android app
 Requires at least: 3.0.1
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,8 @@ Are you a WordPress blogger wanting to reach out to your audience on Android Mob
 2. Select splashscreen for mobile app.
 
 == Changelog ==
+= 1.6b =
+* bug fixes and performance improvements.
 = 1.5b =
 * Template bug fixes.
 * App Compilation fixes.
@@ -98,5 +100,4 @@ Manual installation of apps using the .apk files, you need to allow your phone t
  <li>Your new app is now installed.</li>
 </ul>
 == Upgrade Notice ==
-* Template bug fixes.
-* App Compilation fixes.
+* bug fixes and performance improvements.

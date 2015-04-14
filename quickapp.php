@@ -4,7 +4,7 @@
 * Plugin Name: Quickapp
 * Description: Quickapp is a wordpress plugin that converts your blog or website into an HTML5 mobile app for all smartphones platforms including android. We offer a free version for small to medium website as well as custom apps for an affordable price. Our plugin can be used to generate files that you can self-publish as a native app to Apple App Store and Google Play Android market.
 * Author: FSD Solutions LLC.
-* Version: 1.5b
+* Version: 1.6b
 * Author URI: http://www.fsdsolutions.com/
 * Plugin URI: http://www.fsdsolutions.com/quickapp/
 */

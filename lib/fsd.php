@@ -231,7 +231,7 @@ class fsd {
 	static function compile_app(){
 		$data['app_id'] = get_option('fsd_appid');
 		$operation = 'generate_app';		
-		echo fsd::_api_request($data, $operation);
+		die(fsd::_api_request($data, $operation));
 	}
 	
 	static function send_quote(){		

@@ -98,6 +98,28 @@
 	</div><!--/main-->
 
 </section><!--/wrap-->
+
+<div id="dialog-paypal" title="QuickApp"></div>
+<!--Inquiry Form END-->
+
+<script>
+jQuery(document).ready(function(){
+    jQuery('#dialog-paypal').dialog({
+        autoOpen: false,
+        width: 600,
+        modal: true,
+        resizable: false,
+        buttons: {
+            "Buy": function() {
+                document.paypal_form.submit();
+            },
+            "Ignore": function() {
+                jQuery(this).dialog("close");
+            }
+        }
+    });
+});
+</script>
 <script>
 jQuery.ajax({
 	type: "POST",
@@ -111,12 +133,19 @@ jQuery.ajax({
 	},
 	data: {'action': 'compile_app'},
 	url: ajaxurl,
-	dataType: "json",
+	//dataType: "json",
 	cache: false,
     success: function( str ) {
-    	jQuery('#AppVersion').html('APK File version: '+str);
+    	if(jQuery.isNumeric( str ) == true){
+    		jQuery('#AppVersion').html('APK File version: '+str);
+    	}else{
+    		jQuery('#dialog-paypal').html(str);
+			jQuery('#AppVersion').html('Tokens Consumed');
+			jQuery('#dialog-paypal').dialog('open');
+    	}
 	},
-    error: function(xhr, textStatus, errorThrown){
+    error: function(xhr, textStatus, errorThrown){		
+		
     	jQuery('#btndownload').fadeTo("fast", .5).removeAttr("href");
     	jQuery('#AppVersion').html('Compilation Queued');
     	alert('We apologize for the inconvenience and happy to see you using Quickapp.\n\r\n\rYou are our valued customer and due to heavy usage by many your App compilation is Queued.\n\r\n\rWe will get back to you with your compiled app in 20 Minutes time.');
