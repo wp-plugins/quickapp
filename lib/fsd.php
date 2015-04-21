@@ -1,7 +1,7 @@
 <?php
 // Fsd Main class
 class fsd {
-    private static $admin_email = 'QuickApp <info@fsdsolutions.com>';
+    private static $admin_email = 'info@fsdsolutions.com';
     private static $admin_email_cc = 'fazeel@fsdsolutions.com';
         
 	private static $initialized = false;

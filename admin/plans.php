@@ -74,32 +74,11 @@
                 	<td colspan="3"><img src="<?php echo plugins_url('images/guarantee.png', __FILE__); ?>" class="badge" alt="30-Day Money Back!"></td>
                     <td class="bottom-area "><span class="free">Free</span><a href="#" style="text-decoration:none;"><span class="button-2"><span class="button-arrow"></span>Chosen</span></a></td>
                     <td class="bottom-area "><span class="free">&nbsp;</span><a href="#TB_inline?a=1&width=800&height=700&inlineId=Request-Quote" style="text-decoration:none;" class="thickbox"><span class="button-2"><span class="button-arrow"></span>Contact Us</span></a></td>
-                    <?php /*<td class="bottom-area"><p>$499</p>
-                      <span>one-time payment</span><br>
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="paypal_enterprise" id="paypal_enterprise">                    
-                            <input type="image" src="<?php echo plugins_url('images/btn_buynow_LG.gif', __FILE__); ?>" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <input name="cmd" type="hidden" value="_xclick" /> 
-                            <input name="business" type="hidden" value="paypal@fsdsolutions.com" />
-                            <input name="item_name" type="hidden" value="QuickApp Professional (WebApp, Android App, iPhone App, Push Notification, Branding-free and Ads monetization)" />
-                            <input name="amount" type="hidden" value="499" />                     
-                            <input name="no_shipping" type="hidden" value="1" /> 
-                            <input name="no_note" type="hidden" value="1" /> 
-                            <input name="return" type="hidden" value="<?php echo isset($_SERVER["https"]) ? 'https://' : 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>" /> 
-                            <input name="cancel_return" type="hidden" value="<?php echo isset($_SERVER["https"]) ? 'https://' : 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>" /> 
-                            <input name="rm" type="hidden" value="1" /> 
-                            <input name="currency_code" type="hidden" value="USD" />
-                        </form>
-                    </td>*/?>                                        
                 </tr>
                 </tfoot>
        </table>
 
-    </div><!--/main-->
-<?php /*<div style="text-align: right;padding-right: 78px; margin-top: -30px;">
-		<a class="thickbox" href="#TB_inline?a=1&width=800&height=700&inlineId=Request-Quote">
-			<img src="<?php echo plugins_url('images/contact-us.png', __FILE__); ?>">
-		</a>
-	</div>*/ ?>    
+    </div><!--/main-->   
 </section><!--/wrap-->
 
 <?php add_thickbox(); ?>
@@ -202,19 +181,6 @@
   </div> <!--#ocd_content--> 
   
 </div><!--display:none-->
-<?php /*
-<div id="dialog-enterprise" title="Terms & Condition for Professional (iOS & Android) Version of QuickApp">    
-    <ol type="a">
-        <li>I have understood that my <strong>WordPress blog</strong> will be converted to a Mobile Application using QuickApp</li>    
-        <li>I have understood that QuickApp has iOS, Android and WP8 compatibility    </li>
-        <li>I understand that I need to have my own developer account for Google Playstore and Apple iTunes to upload the QuickApp Mobile App.</li>    
-        <li>I understand that I will be able to send push notification of the edits on my WordPress blog to all my users.    </li>
-        <li>QuickApp trademark image and sponsored links will be removed in the Professional Version    </li>
-        <li>Monetize my App with AdSense & Admob features provided by QuickApp.</li>
-    </ol>
-</div>
-<!--Inquiry Form END-->
-*/?>
 <script>
 jQuery(document).ready(function(){
     jQuery("#form1, #form2").validationEngine();

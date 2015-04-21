@@ -141,6 +141,16 @@ function fsd_plans() {
 }
 
 function fsd_publish() {	
+	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action'])){
+		switch ($_POST['action']) {
+			case 'RequestQuote':
+				fsd::send_quote();				
+				break;
+			case 'InquiryForm':
+				fsd::send_inquiry();
+				break;
+		}
+	}
        /* Output our admin page */
 	load_template( FSD_BASE_DIR . '/admin/publish.php');
 }

@@ -89,7 +89,7 @@
 					</li>
 				</ul></td>
 				<td class="otherInfo" style=" text-align:center;">
-					<h1><a href="admin.php?page=fsdapp-plans"><img src="<?php echo plugins_url('images/btn4.png', __FILE__); ?>" alt=""></a>
+					<h1><a href="#TB_inline?a=1&width=800&height=700&inlineId=Request-Quote" style="text-decoration:none;" class="thickbox"><img src="<?php echo plugins_url('images/btn4.png', __FILE__); ?>" alt=""></a>
 				<br>
 				iOS App</h1></td>
 			</tr>
@@ -100,6 +100,106 @@
 </section><!--/wrap-->
 
 <div id="dialog-paypal" title="QuickApp"></div>
+<?php add_thickbox(); ?>
+<div id="Request-Quote" style='display:none;'>
+  <div id='ocd_content' class='colorbox '>
+    <h1>Contact Us Form</h1>
+    <p>Fill in to receive a mobile app quote from one of our consultants today.</p>
+    <span class="color1">(*) - indicates a required field </span>
+    <form class="request-a-quote-form" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>" method="post" id="form1">
+    <input type="hidden" name="action" value="RequestQuote" />
+      <div class="border">
+        <div class="col-1"> <span>Name (<strong>*</strong>)</span><br>
+          <input type="text" class="validate[required]" name="name" id="name" >
+          <br>
+          <span>Phone Number </span><br>
+          <input type="text" name="phone" id="phone">
+          <br>
+        </div>
+        <div class="col-1"> <span>Email Address (<strong>*</strong>)</span><br>
+          <input type="text" class="validate[required]" name="email" id="email" >
+          <br>
+          <span>Organization</span><br>
+          <input type="text" name="organization" id="organization" >
+          <br>
+        </div>
+        <div class="clear"></div>
+      </div><!--border-->
+      
+      <div class="border">
+        <h2>Platform</h2>
+        <p class="platform">
+          <label>
+            <input type="checkbox" name="platform[]" id="Platform1" value="iOS (iPhone, iPad)" >
+            <span>iOS (iPhone, iPad)</span></label>
+          <label>
+            <input type="checkbox" name="platform[]" id="Platform2" value="Android" >
+            <span>Android</span></label>          
+        </p>
+        <div class="col-1"> <span>App Budget (<strong>*</strong>)</span>
+          <select id="appbudget" name="appbudget" class="validate[required]">
+            <option value="Not Sure">Not Sure</option>
+            <option value="Under $500">Under $500</option>
+            <option value="$500 - $1,000">$500 - $1,000</option>
+            <option value="$1,000 - $2,000">$1,000 - $2,000</option>
+            <option value="$2,000 - $3,000">$2,000 - $3,000</option>
+            <option value="$3,000 - $4,000">$3,000 - $4,000</option>
+            <option value="$4,000 - $5,000">$4,000 - $5,000</option>
+            <option value="$5,000 - $6,000">$5,000 - $6,000</option>
+            <option value="$6,000 - $7,000">$6,000 - $7,000</option>
+            <option value="$7,000 - $8,000">$7,000 - $8,000</option>
+            <option value="$8,000 - $9,000">$8,000 - $9,000</option>
+            <option value="$9,000 - $10,000">$9,000 - $10,000</option>            
+            <option value="$10,000 +">$10,000 +</option>
+          </select>
+        </div>
+        <div class="col-1"> <span>App Type</span>
+          <select name="apptype" id="apptype">
+          	
+            <option value="Business Utility">Business Utility</option>
+            <option value="General Entertainment">General Entertainment</option>
+            <option value="Fun &amp; Games">Fun &amp; Games</option>
+            <option value="Education &amp; Reference">Education &amp; Reference</option>
+            <option value="Viral Marketing Application">Viral Marketing Application</option>
+            <option value="Enterprise Level App">Social Media Sharing</option>
+            <option value="Social Media Sharing">Business Utility</option>
+            <option value="Mobile Shopping">Mobile Shopping</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="clear"></div>
+        <span>Short Summary of Concept (<strong>*</strong>)</span><br>
+        <textarea id="summary" name="summary" cols="20" rows="2" class="validate[required]"></textarea>
+        <div class="clear"></div>
+      </div><!--border-->
+      
+      <div class="border">
+        <div class="col-1"> <span>How did you hear about us?</span><br>
+          <select name="howknow" id="howknow" tabindex="12">
+          	
+            <option value="Google">Google</option>
+            <option value="Online/Search Engine">Online/Search Engine</option>
+            <option value="Recommendation">Recommendation</option>
+            <option value="Magazine/Trade Press/Journal">Magazine/Trade Press/Journal</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="col-1">
+          <label class="margin-top">
+            <input type="checkbox" name="nda" id="nda" value="Send me your NDA" >
+            <span >Send me your NDA</span></label>
+        </div>
+        <div class="clear"></div>
+      </div><!--border-->
+      
+      <div class="border">
+        <input name="submit" value="Get Quote" type="submit">
+      </div><!--border-->
+      
+    </form>
+  </div> <!--#ocd_content--> 
+  
+</div><!--display:none-->
 <!--Inquiry Form END-->
 
 <script>
